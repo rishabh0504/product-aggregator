@@ -1,0 +1,57 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment variables
+.env
+.env*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+dist/
+.tmp/
+temp/
+tmp/
+
+# Compiled output
+dist/
+build/
+
+# NestJS
+*.tsbuildinfo
+
+# Prisma
+prisma/migrations/
+prisma/.env
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Coverage
+coverage/
+
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+tsconfig.tsbuildinfo
+
+# Cache
+.cache/
+.cache-loader/
