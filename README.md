@@ -83,6 +83,10 @@ npm run start:prod</pre>
 
 <pre>npm run test:e2e</pre>
 
+## Swagger docs
+
+<pre>http://localhost:3000/docs#/</pre>
+
 The server will run at http://localhost:3000.
 
 | Variable                      | Description                                            | Default                                                                 |
