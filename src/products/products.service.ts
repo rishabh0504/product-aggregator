@@ -1,5 +1,5 @@
 import { Injectable, BadRequestException } from '@nestjs/common';
-import { PrismaService } from '../prisma/prisma.service';
+import { PrismaService } from '@prisma-module/prisma.service';
 import { Prisma, Product, PriceHistory } from '@prisma/client';
 
 @Injectable()

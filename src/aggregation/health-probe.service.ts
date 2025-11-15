@@ -1,7 +1,6 @@
-// src/aggregation/health-probe.service.ts
 import { Injectable, Logger } from '@nestjs/common';
-import { Cron, CronExpression } from '@nestjs/schedule';
-import { PrismaService } from '../prisma/prisma.service';
+import { Cron } from '@nestjs/schedule';
+import { PrismaService } from '@prisma-module/prisma.service';
 import axios from 'axios';
 
 const RESET_INTERVAL_SECONDS = Number(

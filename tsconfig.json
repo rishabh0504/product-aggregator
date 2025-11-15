@@ -20,7 +20,7 @@
       "@modules/*": ["modules/*"],
       "@common/*": ["common/*"],
       "@utils/*": ["utils/*"],
-      "@prisma/*": ["prisma/*"]
+      "@prisma-module/*": ["prisma-module/*"]
     },
 
     "incremental": true,

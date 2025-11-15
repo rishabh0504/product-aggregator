@@ -1,8 +1,8 @@
 import { Injectable, Logger } from '@nestjs/common';
 import axios, { AxiosResponse } from 'axios';
 import { Provider } from '@prisma/client';
-import { PrismaService } from '../prisma/prisma.service';
-import { sleep } from '../common/utils';
+import { PrismaService } from '@prisma-module/prisma.service';
+import { sleep } from '@common/utils';
 import { NormalizerRegistry } from './normalizers/normalizer-registry.service';
 
 const DEFAULT_TIMEOUT = Number(process.env.FETCH_TIMEOUT_MS ?? 8000);

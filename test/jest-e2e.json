@@ -1,9 +1,17 @@
 {
   "moduleFileExtensions": ["js", "json", "ts"],
-  "rootDir": ".",
+  "rootDir": "../src",
   "testEnvironment": "node",
-  "testRegex": ".e2e-spec.ts$",
+  "testRegex": ".*\\.spec\\.ts$",
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@aggregation/(.*)$": "<rootDir>/aggregation/$1",
+    "^@common/(.*)$": "<rootDir>/common/$1",
+    "^@products/(.*)$": "<rootDir>/products/$1",
+    "^@mock-providers/(.*)$": "<rootDir>/mock-providers/$1",
+    "^@prisma-module/(.*)$": "<rootDir>/prisma-module/$1",
+    "^@types/(.*)$": "<rootDir>/types/$1"
   }
 }
